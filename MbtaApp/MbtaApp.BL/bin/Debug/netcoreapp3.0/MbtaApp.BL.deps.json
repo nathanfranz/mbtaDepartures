@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MbtaApp.BL/1.0.0": {
+        "dependencies": {
+          "MbtaApp.DL": "1.0.0",
+          "MbtaApp.Models": "1.0.0"
+        },
+        "runtime": {
+          "MbtaApp.BL.dll": {}
+        }
+      },
+      "RestSharp/106.11.4": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.4.0",
+            "fileVersion": "106.11.4.0"
+          }
+        }
+      },
+      "MbtaApp.DL/1.0.0": {
+        "dependencies": {
+          "MbtaApp.Models": "1.0.0",
+          "RestSharp": "106.11.4"
+        },
+        "runtime": {
+          "MbtaApp.DL.dll": {}
+        }
+      },
+      "MbtaApp.Models/1.0.0": {
+        "runtime": {
+          "MbtaApp.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MbtaApp.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestSharp/106.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vx35q52cM3UQNOiN3UqSQ9U7I5UeoyzVmjsWKQxOxn6FVu+n01+SNwhxc/jvf92WPBmmwzTV4VYTeTg4KviJdA==",
+      "path": "restsharp/106.11.4",
+      "hashPath": "restsharp.106.11.4.nupkg.sha512"
+    },
+    "MbtaApp.DL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MbtaApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

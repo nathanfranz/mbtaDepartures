@@ -1,0 +1,11 @@
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/bin/Debug/netcoreapp3.0/MbtaApp.DL.deps.json
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/bin/Debug/netcoreapp3.0/MbtaApp.DL.dll
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/bin/Debug/netcoreapp3.0/MbtaApp.DL.pdb
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/obj/Debug/netcoreapp3.0/MbtaApp.DL.csprojAssemblyReference.cache
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/obj/Debug/netcoreapp3.0/MbtaApp.DL.AssemblyInfoInputs.cache
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/obj/Debug/netcoreapp3.0/MbtaApp.DL.AssemblyInfo.cs
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/obj/Debug/netcoreapp3.0/MbtaApp.DL.dll
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/obj/Debug/netcoreapp3.0/MbtaApp.DL.pdb
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/bin/Debug/netcoreapp3.0/MbtaApp.Models.dll
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/bin/Debug/netcoreapp3.0/MbtaApp.Models.pdb
+/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/obj/Debug/netcoreapp3.0/MbtaApp.DL.csproj.CopyComplete

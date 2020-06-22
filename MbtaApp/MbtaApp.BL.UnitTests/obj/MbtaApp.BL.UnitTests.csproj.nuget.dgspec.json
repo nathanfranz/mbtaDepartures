@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL.UnitTests/MbtaApp.BL.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL.UnitTests/MbtaApp.BL.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL.UnitTests/MbtaApp.BL.UnitTests.csproj",
+        "projectName": "MbtaApp.BL.UnitTests",
+        "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL.UnitTests/MbtaApp.BL.UnitTests.csproj",
+        "packagesPath": "/Users/nathanfranz/.nuget/packages/",
+        "outputPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nathanfranz/NuGet.Config",
+          "/Users/nathanfranz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://artifactory.cimpress.io/artifactory/api/nuget/nuget-release-local": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL/MbtaApp.BL.csproj": {
+                "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL/MbtaApp.BL.csproj"
+              },
+              "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj": {
+                "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL/MbtaApp.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL/MbtaApp.BL.csproj",
+        "projectName": "MbtaApp.BL",
+        "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL/MbtaApp.BL.csproj",
+        "packagesPath": "/Users/nathanfranz/.nuget/packages/",
+        "outputPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.BL/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nathanfranz/NuGet.Config",
+          "/Users/nathanfranz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://artifactory.cimpress.io/artifactory/api/nuget/nuget-release-local": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/MbtaApp.DL.csproj": {
+                "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/MbtaApp.DL.csproj"
+              },
+              "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj": {
+                "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/MbtaApp.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/MbtaApp.DL.csproj",
+        "projectName": "MbtaApp.DL",
+        "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/MbtaApp.DL.csproj",
+        "packagesPath": "/Users/nathanfranz/.nuget/packages/",
+        "outputPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.DL/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nathanfranz/NuGet.Config",
+          "/Users/nathanfranz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://artifactory.cimpress.io/artifactory/api/nuget/nuget-release-local": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj": {
+                "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj",
+        "projectName": "MbtaApp.Models",
+        "projectPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/MbtaApp.Models.csproj",
+        "packagesPath": "/Users/nathanfranz/.nuget/packages/",
+        "outputPath": "/Users/nathanfranz/Documents/JobHunt/InterviewProjects/MbtaApp/MbtaApp.Models/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nathanfranz/NuGet.Config",
+          "/Users/nathanfranz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://artifactory.cimpress.io/artifactory/api/nuget/nuget-release-local": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
