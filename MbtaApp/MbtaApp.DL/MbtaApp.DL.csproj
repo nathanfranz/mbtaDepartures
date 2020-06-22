@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <RootNamespace>MbtaApp.DL</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="RestSharp" Version="106.11.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MbtaApp.Models\MbtaApp.Models.csproj" />
+    </ItemGroup>
+
+</Project>
