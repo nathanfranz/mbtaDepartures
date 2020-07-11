@@ -49,7 +49,7 @@ namespace MbtaApp.BL.UnitTests.Managers
         }
 
         [Fact]
-        public async Task GetDestinationReturnsCorrectDestination()
+        public void GetDestinationReturnsCorrectDestination()
         {
             var destination = _mbtaAppManager.GetDestination("testRouteId", 1, CreateRoutes());
             
@@ -57,7 +57,7 @@ namespace MbtaApp.BL.UnitTests.Managers
         }
         
         [Fact]
-        public async Task UpdateIfPredictionUpdates()
+        public void UpdateIfPredictionUpdates()
         {
             var schedules = CreateSchedules();
             var scheduleToChange = schedules[2];
@@ -96,7 +96,7 @@ namespace MbtaApp.BL.UnitTests.Managers
         [InlineData("North Station-05", "5")]
         [InlineData("North Station-09", "9")]
         [InlineData("North Station-10", "10")]
-        public async Task ConvertStopIdToTrackNumberWorks(string stopId, string expectedTrackNumber)
+        public void ConvertStopIdToTrackNumberWorks(string stopId, string expectedTrackNumber)
         {
             var returnedTrackNumber = _mbtaAppManager.ConvertStopIdToTrackNumber(stopId);
             
